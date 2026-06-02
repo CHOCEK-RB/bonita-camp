@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
   <process:MainProcess xmi:id="_MnlHQF3HEfGJiPQG6vSYHQ" name="DiagramaSolicitudVacaciones" version="2.0.0" bonitaModelVersion="9">
-    <elements xmi:type="process:Pool" xmi:id="_MnlHQV3HEfGJiPQG6vSYHQ" name="Pool" version="2.0.0">
+    <elements xmi:type="process:Pool" xmi:id="_MnlHQV3HEfGJiPQG6vSYHQ" name="SolicitudVacaciones" version="2.0.0">
       <elements xmi:type="process:Lane" xmi:id="_MnlHQl3HEfGJiPQG6vSYHQ" name="Employee lane" actor="_MnlHnV3HEfGJiPQG6vSYHQ">
         <elements xmi:type="process:StartEvent" xmi:id="_MnlHQ13HEfGJiPQG6vSYHQ" name="Ingresar solicitud" outgoing="_MnlHhV3HEfGJiPQG6vSYHQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_MnlHRF3HEfGJiPQG6vSYHQ" name="" content="" returnTypeFixed="true"/>
@@ -32,7 +32,7 @@
             <condition xmi:type="expression:Expression" xmi:id="_MnlHUV3HEfGJiPQG6vSYHQ" name="00:00:05" content="5000L" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Long"/>
           </BoundaryIntermediateEvents>
           <formMapping xmi:type="process:FormMapping" xmi:id="_MnlHUl3HEfGJiPQG6vSYHQ">
-            <targetForm xmi:type="expression:Expression" xmi:id="_MnlHU13HEfGJiPQG6vSYHQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2oj7UF3_EfGdktM9jjBJYw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_MnlHVF3HEfGJiPQG6vSYHQ">
             <inputs xmi:type="process:ContractInput" xmi:id="_HcOx0F3JEfGv948n39noHQ" name="solicitudInput" type="COMPLEX" dataReference="solicitud" createMode="false">
@@ -100,7 +100,7 @@
         </defaultValue>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_MnlHgV3HEfGJiPQG6vSYHQ">
-        <targetForm xmi:type="expression:Expression" xmi:id="_MnlHgl3HEfGJiPQG6vSYHQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_2oj7UV3_EfGdktM9jjBJYw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_MnlHg13HEfGJiPQG6vSYHQ">
         <targetForm xmi:type="expression:Expression" xmi:id="_MnlHhF3HEfGJiPQG6vSYHQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
